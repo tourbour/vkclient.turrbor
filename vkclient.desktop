@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Vkontakte
+Exec=webapp-container --webappUrlPatterns=https?://vk.com/*,https?://*.vk.com/*,https?://vk.com/login.php* --store-session-cookies --enable-media-hub-audio https://vk.com
+Icon=assets/icon.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+X-Ubuntu-Splash-Color=#5181b8
