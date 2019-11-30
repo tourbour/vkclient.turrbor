@@ -1,8 +1,14 @@
 [Desktop Entry]
 Name=Vkontakte
-Exec=webapp-container --user-agent-string='Mozilla/5.0 (Linux; Android 8.0.0; Pixel Build/OPR3.170623.007) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36' --webappUrlPatterns=https?://vk.com/*,https?://*.vk.com/*,https?://vk.com/login.php* --store-session-cookies --enable-media-hub-audio https://vk.com --scaling --multisample --gles --fullscreen --disable-gpu
-Icon=assets/icon.png
+Comment=Morph based alternate vk.com Webapp
+Exec=qmlscene %u app/Main.qml  --scaling --multisample --gles --fullscreen
 Terminal=false
 Type=Application
+Icon=icon.png
 X-Ubuntu-Touch=true
-X-Ubuntu-Splash-Color=#5181b8
+
+X-Ubuntu-Splash-Color=#ffffff
+
+Name[en_US]=Vkontakte
+
+
