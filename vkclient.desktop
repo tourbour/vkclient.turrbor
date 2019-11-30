@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Vkontakte
 Comment=Morph based alternate vk.com Webapp
-Exec=qmlscene %u app/Main.qml  --scaling --multisample --gles --fullscreen
+Exec=qmlscene %u app/Main.qml  --scaling --multisample --gles --fullscreen --disable-gpu
 Terminal=false
 Type=Application
 Icon=icon.png
