@@ -1,16 +1,13 @@
 {
+    "template": "ubuntu-webapp",
     "policy_groups": [
-         "webview",
-         "networking",
-	"video",
-         "audio",
-         "keep-display-on",
-	"content_exchange",
-	"content_exchange_source",
-	"camera",
-	"keep-display-on"
-        
-    ],
+        "networking",
+        "webview",
+        "audio",
+        "content_exchange",
+        "content_exchange_source",
+        "keep-display-on",
+        "location",
+        "camera"],
     "policy_version": 16.04
 }
-
